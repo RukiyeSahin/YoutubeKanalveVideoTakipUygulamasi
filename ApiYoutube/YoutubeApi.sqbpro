@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/User/PycharmProjects/ApiYoutube/YoutubeApi.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser query pragmas" current="2"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="3934"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,19:mainChannel_information"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE &quot;Video_tracking&quot; (
+	&quot;tracking_id&quot;	INTEGER NOT NULL UNIQUE,
+	&quot;video_id&quot;	TEXT NOT NULL,
+	&quot;channel_id&quot; TEXT NOT NULL,
+	&quot;video_views&quot;  TEXT NOT NULL,
+	&quot;video_likes&quot;	INTEGER NOT NULL,
+	&quot;video_dislikes&quot;	INTEGER NOT NULL,
+	&quot;video_comments&quot;	INTEGER NOT NULL,
+	&quot;video_access_date&quot;	TEXT NOT NULL,
+	PRIMARY KEY(&quot;tracking_id&quot; AUTOINCREMENT),
+	FOREIGN KEY(&quot;video_id&quot;) REFERENCES &quot;Video_information&quot;(&quot;video_id&quot;),
+	FOREIGN KEY(&quot;channel_id&quot;) REFERENCES &quot;Channel_information&quot;(&quot;channel_id&quot;)
+)
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
