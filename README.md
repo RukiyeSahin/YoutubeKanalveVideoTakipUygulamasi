@@ -1,0 +1,2 @@
+# YoutubeKanalveVideoTakipUygulamasi
+ Takip altına almak istenilen kanal ismini girerek bu kanalın son yüklenen on videosuna erişir ve her aramada son on videoya bakarak yeni video yüklenmiş mi kontrolü yapar. Yeni video eklendikçe eklenen videonun istenen değerlerinin kaydını alır. Bununla birlikte takip edilen kanalla ilgili daha önce eklenen videoların izlenme beğeni gibi değişken verilerini günceller.
