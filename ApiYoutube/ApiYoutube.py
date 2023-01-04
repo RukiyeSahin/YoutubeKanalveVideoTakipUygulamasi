@@ -282,6 +282,7 @@ if len(channelId_list)>=1:
 
 else:
     print("Böyle bir kanal yok")
+    print("*******************")
 
 
 
